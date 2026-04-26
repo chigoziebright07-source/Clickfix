@@ -1,0 +1,50 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #f4f6f8;
+  color: #333;
+}
+
+/* HEADER */
+.header {
+  background: #111;
+  color: white;
+  text-align: center;
+  padding: 30px 10px;
+}
+
+/* MAIN CONTAINER */
+.container {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+}
+
+/* POST CARDS */
+.post-card {
+  background: white;
+  padding: 15px;
+  margin: 15px 0;
+  border-radius: 10px;
+  transition: 0.2s;
+}
+
+.post-card:hover {
+  transform: scale(1.02);
+}
+
+.post-card a {
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  color: #0077ff;
+}
+
+/* FOOTER */
+.footer {
+  text-align: center;
+  padding: 15px;
+  background: #111;
+  color: white;
+  margin-top: 30px;
+}
